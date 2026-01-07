@@ -1,0 +1,13 @@
+# Ignore everything in the folder
+*
+
+# Allow specific files to be tracked
+!.gitignore
+!README.md
+!ai_transcribe.sh
+!prepend_dates_on_folders.sh
+!youtube_HLG.sh
+!videopre.sh
+
+
+
