@@ -59,5 +59,3 @@ do
         echo -e "\n${BLUE}Skipping: $file does not exist or is not a regular file.${NC}"
     fi
 done
-say -v Fiona "youtube HLG finished" &
-
