@@ -54,10 +54,10 @@ do
  #        time ffmpeg -i "$file" -c:v hevc_videotoolbox -q:v 80 -profile:v main10 -pix_fmt p010le -color_primaries bt2020 -color_trc arib-std-b67 -colorspace bt2020nc -tag:v hvc1 -c:a aac -b:a 320k -movflags +faststart "$output_file_hlg"
   
 
-       say -v Fiona "$output_file_hlg finished"
+       say -v Fiona "$output_file_hlg finished " &
     else
         echo -e "\n${BLUE}Skipping: $file does not exist or is not a regular file.${NC}"
     fi
 done
-say -v Fiona "youtube HLG finished"
+say -v Fiona "youtube HLG finished" &
 
