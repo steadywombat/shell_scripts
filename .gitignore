@@ -6,10 +6,13 @@
 !README.md
 !LICENSE
 !ai_transcribe.sh
-!prepend_dates_on_folders.sh
-!youtube_HLG.sh
-!videopre.sh
 !combine_frames.sh
+!prepend_dates_on_folders.sh
+!rn_template.sh
+!videopre.sh
+!youtube_HLG.sh
+
+
 
 
 
