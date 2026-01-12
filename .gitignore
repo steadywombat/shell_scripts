@@ -8,7 +8,9 @@
 !ai_transcribe.sh
 !combine_frames.sh
 !prepend_dates_on_folders.sh
+!rename_with_date_difference.py
 !rn_template.sh
+rn_with_date_difference.sh
 !videopre.sh
 !youtube_HLG.sh
 
